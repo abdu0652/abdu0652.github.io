@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+</head>
+<body>
+    <header>
+        <h1>Week 4</h1>
+    </header>
+    <main>
+        <h2>Image tag example</h2>
+        <!--if image is decorative keep the alt tag empty alt="" -->
+        <img src="./images/coffee-shop.jpg" alt="coffee with coffee beans" 
+        width="500">
+        <img src="./images/coffee-shop.jpg" title="coffee cup with coffee 
+        beans" width="500">
+        <!--learning about tag-->
+        <h2>link tag example</h2>
+        <p>Here is the link to visit <a href="http://www.google.com"
+        target="blank">Google Homepage</a>.</p>
+
+       <a href="./thanks.html">Thank you page</a>
+
+        <a href="#cakes">Jump to cake menu</a>
+        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla!</p>
+        <ul id="cakes">
+            <li>Red Velvet</li>
+            <li>Tiramisu</li>
+        </ul>
+        <!-- Table in HMTL -->
+         <h2>Simple HTLM Table</h2>
+         <table border="1">
+            <caption>Student Grades</caption>
+            <thread>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Course Name</th>
+                    <th>Grade</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td> Jonh Smith</td>
+                    <td>Web Dev 1</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Mel
+                    <td>Web Dev 2</td>
+                    <td>A+</td>
+                </tr>
+            </tbody>
+         </table>
+         <table border="1">
+            <caption>Student grades</caption>
+            <thread>
+                <tr>
+                    <th rowspan="2">Names</th>
+                    <th colspan="2">Scores</th>
+                </tr>
+                <tr>
+                    <th>Maths</th>
+                    <th>English</th>
+                </tr>
+            </thread>
+        </table>
+        <table border="2">
+            <caption>Calender</caption>
+            <thread>
+                <tr>
+                    <th colspan="2">WeekDay</th>
+                    <th colspan="2">Month</th>
+                </tr>
+                <tr>
+                    <th>Mon</th>
+                    <th>Wed</th>
+                    <th>Jan</th>
+                    <th>May</th>
+                </tr>
+            </thread>
+            <tbody>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tbody>
+            <tbody>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+            </tbody>
+         </table>
+         <!-- Form Element-->
+          <h2>Form Element</h2>
+
+          <form action="./thanks.html" methode="get">
+            <label for="fullName">Name</label>
+             <input id="fullname" type="text" name="fullname" min="0" max="20" step="2" value="Mr. or Ms.">
+                <br>
+                <label for="userEmail"> Email</label>
+                <input id="userEmail" type="email" name="email" required>
+                <!--dropdown-->
+                <label for="rock">Choose your Rock</label>
+                <select id="rock" name="rock">
+                    <option value="Mars">Mars</option>
+                    <option value="earth">Earth</option>
+                    <option value="venus">Venus</option>
+                </select>
+                <!--radio buttton-->
+                <label for="little">0-1</label>
+                <input type="radio" id="little" name="musictime" value="0-1">
+                <label for="some">2-3</label>
+                <input type="radio" id="some" name="musictime" value="2-3" checked>
+                <label for="alot">4-5</label>
+                <input type="radio" id="alot" name="musictime1" value="4-5">
+                <label for="alotmore">6-8</label>
+                <input type="radio" id="alotmore" name="musictime1" value="6-8">
+
+
+                <button type="submit">Send</button>
+            </form>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt cum obcaecati quis corrupti tempore quisquam deserunt, saepe quas dignissimos minima quod esse blanditiis modi necessitatibus ratione voluptas vitae libero quibusdam.</p>
+       </main>
+   </main>
+</body>
+</html>
