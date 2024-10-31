@@ -9,7 +9,7 @@ header, footer{
     color:aquamarine;
 }
 #my-image{
-    box-shadow: 0 0 2px 1px coral;
+    box-shadow: 0 0 2px 1px black;
 }
 ul{
     list-style: square;
