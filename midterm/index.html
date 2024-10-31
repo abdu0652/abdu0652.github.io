@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Sets the language of the document to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling on mobile devices -->
+    <title>The Arctic Roar</title> <!-- Defines the title of the webpage displayed in the browser tab -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Defines the header section -->
+        <header>
+            <div class="header-content">
+                <img src="image/the-arctic.jpeg" alt="A polar bear in the arctic landscape" class="header-img">
+                <div class="header-text">
+                    <h1>The Arctic Roar</h1>
+                     <!-- Navigation Bar -->
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">STORY</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Main content section -->        
+        <main>
+            <h2>Life of a Polar Bear</h2>
+            <img src="image/polar-bear.jpg" alt="Close-up of a polar bear" class="main-img">
+            <p class="intro">
+            The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore, with adult males weighing 300–800 kg. The species is sexually dimorphic, as adult females are much smaller. The polar bear is white- or yellowish-furred with black skin and a thick layer of fat. It is slenderer than the brown bear, with a narrower skull, longer neck, and lower shoulder hump. Its teeth are sharper and more adapted to cutting meat. The paws are large and allow the bear to walk on ice and paddle in the water. Polar bears are both terrestrial and ice-living and are considered marine mammals because of their dependence on marine ecosystems. They prefer the annual sea ice but live on land when the ice melts in the summer. They are mostly carnivorous and specialized for preying on seals, particularly ringed seals.
+            </p>
+            
+            <h3>Facts About Polar Bears</h3>
+            <!-- Unordered list of polar bear facts -->
+            <ul class="facts"> 
+                <li>Polar bears have black skin beneath their dense, white fur, which helps them absorb heat from the sun.</li>
+                <li>They are incredibly strong swimmers and can travel over 60 miles in freezing water without needing a break.</li>
+                <li>These powerful predators rely on stable sea ice to hunt seals, which are their primary source of nutrition.</li>
+                <li>Surprisingly, a polar bear's fur is transparent, not white, but it appears white by reflecting visible light.</li>
+            </ul>
+
+            <!-- Form to submit contact information -->
+            <h3>Contact to Learn More</h3>
+            <form action="contact" method="POST"> 
+                <label for="name">Your Name</label><br>
+                <input type="text" id="name" name="name" required>
+                <br>
+                
+                <label for="email">Your Email</label><br>
+                <input type="email" id="email" name="email" required> 
+                <br>
+                
+                <label for="message">Your Message</label><br>
+                <textarea id="message" name="message" required></textarea>
+                
+                <label>Would you like to visit the Arctic?</label>
+                <div class="radio-group">
+                    <label for="visit-yes" class="radio-label">Yes</label>
+                    <input type="radio" id="visit-yes" name="visit" value="yes">
+                    
+                    <label for="visit-no" class="radio-label">No</label>
+                    <input type="radio" id="visit-no" name="visit" value="no">
+                    
+                    <label for="visit-maybe" class="radio-label">Maybe</label>
+                    <input type="radio" id="visit-maybe" name="visit" value="maybe">
+                </div>
+                
+                <input type="submit" value="Send">
+            </form>
+        </main>
+
+        <!-- Footer section -->
+        <footer> 
+            <p>&copy; 2024 The Arctic Roar</p>
+        </footer>
+    </div>
+</body>
+</html>
+
