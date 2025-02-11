@@ -4,7 +4,7 @@ body {
 }
 
 header, footer {
-    background-color: cadetblue;
+    background-color: cornflowerblue;
 }
 nav li{
     list-style: none;
@@ -12,15 +12,15 @@ nav li{
 
 nav li a {
     text-decoration: none;
-    background-color: rgb(104, 243, 100);
-    border: 1px solid black;
+    background-color: rgb(253, 172, 212);
+    border: 2px solid hotpink;
 }
 nav li a:hover, :focus {
-    background-color: hotpink;
+    background-color: rgb(241, 67, 157);
 }
 
 .site-title {
-   color: blue;
+   color: rgb(3, 54, 149);
 }
 
 #my-image {
@@ -31,7 +31,7 @@ nav li a:hover, :focus {
     list-style-type: square;
 }
 .hobbies li:nth-child(odd){
-    background-color: aquamarine;
+    background-color: rgb(149, 182, 244);
 }
 
 
